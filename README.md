@@ -1,72 +1,79 @@
 ![](https://hit.yhype.me/github/profile?user_id=44564111)
-<div align="center"> 
- 
-![Last Movie](https://widgets.trakt.tv/users/29581ea69b0d763bc8f57ffed54821bf/watched/banner@1x.jpg?type=movie "Last Movie Watched")
-![Last TV show](https://widgets.trakt.tv/users/29581ea69b0d763bc8f57ffed54821bf/watched/banner@1x.jpg?type=episode "Last TV Show Watched") 
+<div align="center">
 
-![Shows Watched](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Vault108/Vault108/refs/heads/main/assets/trakt_stats.json&label=Shows%20Watched&query=$.shows.watched&style=for-the-badge)  ![Days on Shows](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Vault108/Vault108/refs/heads/main/assets/trakt_stats.json&label=Days%20on%20Shows&query=$.episodes.days&style=for-the-badge) ![Movies Watched](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Vault108/Vault108/refs/heads/main/assets/trakt_stats.json&label=Movies%20Watched&query=$.movies.watched&style=for-the-badge) ![Days on Movies](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Vault108/Vault108/refs/heads/main/assets/trakt_stats.json&label=Days%20on%20Movies&query=$.movies.days&style=for-the-badge) 
+![Last Movie](https://widgets.trakt.tv/users/29581ea69b0d763bc8f57ffed54821bf/watched/banner@1x.jpg?type=movie "Last Movie Watched")
+![Last TV show](https://widgets.trakt.tv/users/29581ea69b0d763bc8f57ffed54821bf/watched/banner@1x.jpg?type=episode "Last TV Show Watched")
+
+![Shows Watched](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Vault108/Vault108/refs/heads/main/assets/stats.json&label=Shows%20Watched&query=shows_watched&style=for-the-badge)
+![Days on Shows](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Vault108/Vault108/refs/heads/main/assets/stats.json&label=Days%20on%20Shows&query=show_days&style=for-the-badge)
+![Movies Watched](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Vault108/Vault108/refs/heads/main/assets/stats.json&label=Movies%20Watched&query=movies_watched&style=for-the-badge)
+![Days on Movies](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Vault108/Vault108/refs/heads/main/assets/stats.json&label=Days%20on%20Movies&query=movie_days&style=for-the-badge)
+![Episodes Watched](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Vault108/Vault108/refs/heads/main/assets/stats.json&label=Episodes%20Watched&query=episodes_watched&style=for-the-badge)
+![Spotify](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FVault108%2FVault108%2Frefs%2Fheads%2Fmain%2Fassets%2Fstats.json&query=song&style=for-the-badge&logo=spotify&logoSize=%20&label=Last%20Played%3A)
+
+
 </div>
 
 <!--START_SECTION:waka-->
-**🐱 My GitHub Data** 
+**🐱 My GitHub Data**
 
-> 📦 116.1 kB Used in GitHub's Storage 
- > 
+> 📦 116.1 kB Used in GitHub's Storage
+ >
 > 🏆 144 Contributions in the Year 2025
- > 
+ >
 > 🚫 Not Opted to Hire
- > 
-> 📜 76 Public Repositories 
- > 
-> 🔑 13 Private Repositories 
- > 
-**I'm an Early 🐤** 
+ >
+> 📜 76 Public Repositories
+ >
+> 🔑 13 Private Repositories
+ >
+**I'm an Early 🐤**
 
 ```text
-🌞 Morning                422 commits         ⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   27.30 % 
-🌆 Daytime                375 commits         ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   24.26 % 
-🌃 Evening                465 commits         ⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   30.08 % 
-🌙 Night                  284 commits         ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.37 % 
+🌞 Morning                422 commits         ⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   27.30 %
+🌆 Daytime                375 commits         ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   24.26 %
+🌃 Evening                465 commits         ⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   30.08 %
+🌙 Night                  284 commits         ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.37 %
 ```
-📅 **I'm Most Productive on Tuesday** 
+📅 **I'm Most Productive on Tuesday**
 
 ```text
-Monday                   232 commits         ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.01 % 
-Tuesday                  336 commits         ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   21.73 % 
-Wednesday                270 commits         ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   17.46 % 
-Thursday                 133 commits         ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   08.60 % 
-Friday                   142 commits         ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   09.18 % 
-Saturday                 236 commits         ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.27 % 
-Sunday                   197 commits         ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   12.74 % 
+Monday                   232 commits         ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.01 %
+Tuesday                  336 commits         ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   21.73 %
+Wednesday                270 commits         ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   17.46 %
+Thursday                 133 commits         ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   08.60 %
+Friday                   142 commits         ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   09.18 %
+Saturday                 236 commits         ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.27 %
+Sunday                   197 commits         ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   12.74 %
 ```
 
 
-📊 **This Week I Spent My Time On** 
+📊 **This Week I Spent My Time On**
 
 ```text
 🕑︎ Time Zone: America/New_York
 
-💬 Programming Languages: 
+💬 Programming Languages:
 No Activity Tracked This Week
 
-🔥 Editors: 
+🔥 Editors:
 No Activity Tracked This Week
 
-🐱‍💻 Projects: 
+🐱‍💻 Projects:
 No Activity Tracked This Week
 
-💻 Operating System: 
+💻 Operating System:
 No Activity Tracked This Week
 ```
 
-**I Mostly Code in Python** 
+**I Mostly Code in Python**
 
 ```text
-Python                   16 repos            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   51.61 % 
-HTML                     6 repos             ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   19.35 % 
-Shell                    6 repos             ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   19.35 % 
-Ruby                     1 repo              ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.23 % 
-JavaScript               1 repo              ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.23 % 
+Python                   16 repos            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   51.61 %
+HTML                     6 repos             ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   19.35 %
+Shell                    6 repos             ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   19.35 %
+Ruby                     1 repo              ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.23 %
+JavaScript               1 repo              ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.23 %
 ```
 
 
