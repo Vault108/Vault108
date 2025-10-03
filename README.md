@@ -19,14 +19,4 @@
 
 </div>
 
-<!--START_SECTION:waka-->
-
-```txt
-Python   30 mins         █████████████████████████   99.34 %
-JSON     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.47 %
-Other    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
-```
-
-<!--END_SECTION:waka-->
-
-![Chart](https://wakatime.com/share/@Vault108/688d9b71-d249-4f4e-81ef-3dceb97e43a3.svg)
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=Vault108&data=followers,repositories,stars,commits&theme=darkmode)](https://github.com/Jurredr/github-widgetbox)
