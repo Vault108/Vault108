@@ -9,11 +9,10 @@ jobs:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
-      - uses: anmol098/waka-readme-stats@v4
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          repo_url: https://github.com/Vault108/Vault108
           SHOW_OS: "True"
           SHOW_PROJECTS: "True"
           SHOW_TIMEZONE: "True"
