@@ -1,5 +1,5 @@
 """
-Pulls the most reccently played song from LASTFM'S SCROBBLER, and logs it to stats.json.
+Pulls the most recently played song from LASTFM'S SCROBBLER, and logs it to stats.json.
 Json can then be used to created a sheilds.io badge.
 The Following environment variables must be set for this script to work:
 LASTFM_USERNAME, LASTFM_API_KEY, LASTFM_LIMIT, TRAKT_USERNAME, and TRAKT_API_KEY.
@@ -25,8 +25,11 @@ def lastfm_stats():
         print("Error: Unable to fetch data from Last.fm API")
         print(f"Status Code: {response.status_code} URL: {scrobbler_url}")
         sys.exit(1)
-    if username is None or api_key is None:
-        print("Error: LASTFM_USERNAME or LASTFM_API_KEY environment variable not set.")
+    if username is None:
+        print("Error: LASTFM_USERNAME environment variable not set.")
+        sys.exit(1)
+    if api_key is None:
+        print("Error: LASTFM_API_KEY environment variable not set.")
         sys.exit(1)
     if limit is None:
         limit = "1"
@@ -67,10 +70,11 @@ def traktv_stats():
         "trakt-api-key": trakt_api_key,
     }
     response = requests.get(traktv_url, headers=headers, timeout=10)
-    if trakt_api_key is None or trakt_username is None:
-        print(
-            "Error: TRAKT_API_KEY or TRAKT_USERNAME environment variable not set. Now Exiting."
-        )
+    if trakt_api_key is None:
+        print("Error: TRAKT_API_KEY environment variable not set.")
+        sys.exit(1)
+    if trakt_username is None:
+        print("Error: TRAKT_USERNAME environment variable not set.")
         sys.exit(1)
     if response.status_code != 200:
         print("Error: Unable to fetch data from Trakt.tv API")
