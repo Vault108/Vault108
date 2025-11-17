@@ -23,7 +23,7 @@ def lastfm_stats():
     response = requests.get(scrobbler_url, timeout=10)
     if response.status_code != 200:
         print("Error: Unable to fetch data from Last.fm API")
-        print(f"Status Code: {response.status_code} URL: {scrobbler_url}")
+        print(f"Status Code: {response.status_code} ")
         sys.exit(1)
     if username is None:
         print("Error: LASTFM_USERNAME environment variable not set.")
